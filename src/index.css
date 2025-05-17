@@ -1,0 +1,10 @@
+
+@import "tailwindcss";
+.background-image{
+    background-image: url("https://asset.gecdesigns.com/img/background-templates/abstract-navy-red-background-design-sr17012401-1705501852665-cover.webp");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
