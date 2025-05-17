@@ -6,7 +6,7 @@ import {  Link } from 'react-router-dom';
 const Navbar = () => {
   return (
     <div>
-      <nav className='p-2'>
+      <nav className='p-2 fixed top-0 w-full bg-white z-40'>
       <div className='flex justify-between'>
           <div>
             <h2 className='text-2xl'>Portfoliou</h2>
