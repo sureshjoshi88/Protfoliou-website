@@ -1,5 +1,7 @@
 import React from 'react'
 import suresh from '../images/suresh.jpg'
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+
 
 const Home = () => {
   return (
@@ -30,7 +32,32 @@ const Home = () => {
         <p>HTML | CSS | JavaScript | React | Node.js | Botstrap | Tailwind | Git | GitHub</p>
       </div>
     </div>
-    <div></div>
+    <div>
+      <div className="flex gap-6 mb-6 text-2xl">
+              <a
+                href="https://github.com/sureshjoshi88"
+                target="_blank"
+                rel="noreferrer"
+                className="hover:text-blue-400"
+              >
+                <FaGithub />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/suresh-joshi-17a886314"
+                target="_blank"
+                rel="noreferrer"
+                className="hover:text-blue-500"
+              >
+                <FaLinkedin />
+              </a>
+              <a
+                href="mailto:joshisuresh123u@gmail.com"
+                className="hover:text-red-400"
+              >
+                <FaEnvelope />
+              </a>
+            </div>
+    </div>
     <div></div>
     </div>
     </>
