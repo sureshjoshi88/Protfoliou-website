@@ -29,10 +29,10 @@ const Home = () => {
     <div>
       <h3 className='font-semibold text-2xl'>Tech Stack</h3>
       <div >
-        <p>HTML | CSS | JavaScript | React | Node.js | Botstrap | Tailwind | Git | GitHub</p>
+        <p>HTML | CSS | JavaScript | React | Botstrap | Tailwind | Git | GitHub</p>
       </div>
     </div>
-    <div>
+    <div className='p-2'>
       <div className="flex gap-6 mb-6 text-2xl">
               <a
                 href="https://github.com/sureshjoshi88"
@@ -58,7 +58,23 @@ const Home = () => {
               </a>
             </div>
     </div>
-    <div></div>
+    <div className='p-2 '>
+      <div className="flex gap-4">
+        <a
+          href="/resume.pdf"
+          target="_blank"
+          className="bg-blue-600 px-5 py-2 rounded-xl hover:bg-blue-700 transition"
+        >
+          View Resume
+        </a>
+        <a
+          href="#projects"
+          className="bg-gray-700 px-5 py-2 rounded-xl hover:bg-gray-800 transition"
+        >
+          View Projects
+        </a>
+      </div>
+    </div>
     </div>
     </>
   )

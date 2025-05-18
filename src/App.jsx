@@ -3,14 +3,20 @@
 import './App.css'
 import Navbar from './component/Navbar'
 import Home from './component/Home'
-import Home2 from './component/Home2'
+import Contact from './component/Contact'
+import { Routes, Route } from 'react-router-dom';
+
 function App() {
 
   return (
     <>
       <Navbar/>
-      <Home/>
-      <Home2/>
+       <Routes>
+                <Route path="/" element={<Home />} />
+                {/* <Route path="/about" element={<About />} /> */}
+                <Route path="/contact" element={<Contact />} />
+            </Routes>
+     
     </>
   )
 }
