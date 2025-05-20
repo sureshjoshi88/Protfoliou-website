@@ -25,8 +25,8 @@ const Home = () => {
       </div>
     </div>
 
-    <div className='grid grid-cols-3'>
-    <div>
+    <div className='grid grid-cols-3 mt-4'>
+    <div className='p-2'>
       <h3 className='font-semibold text-2xl'>Tech Stack</h3>
       <div >
         <p>HTML | CSS | JavaScript | React | Botstrap | Tailwind | Git | GitHub</p>
@@ -63,13 +63,13 @@ const Home = () => {
         <a
           href="/resume.pdf"
           target="_blank"
-          className="bg-blue-600 px-5 py-2 rounded-xl hover:bg-blue-700 transition"
+          className="bg-green-600 text-white font-semibold px-5 py-2 rounded-xl hover:bg-blue-700 transition"
         >
           View Resume
         </a>
         <a
           href="#projects"
-          className="bg-gray-700 px-5 py-2 rounded-xl hover:bg-gray-800 transition"
+          className="bg-green-600 text-white font-semibold px-5 py-2 rounded-xl hover:bg-gray-800 transition"
         >
           View Projects
         </a>
