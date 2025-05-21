@@ -2,15 +2,17 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className='mt-16'>
-         <p>I’d love to hear from you! Whether you have a question, want to collaborate, or just want to say hi — feel free to drop a message.</p>
+    <div className='mt-16 p-1'>
+         <p>I d love to hear from you! Whether you have a question, want to collaborate, or just want to say hi — feel free to drop a message.</p>
       <div className='grid grid-cols-2 pt-10'>
-        <div className='p-3'>
+        <div className='p-3 flex justify-center items-center'>
            
-            <a href='/'>📧 Email: joshisuresh123u@gmail.com  </a><br></br>
-            <a href='/'>📞 Phone: 8824365208   </a><br/>
-            <a href='https://github.com/sureshjoshi88 '  target="_blank">🔗 GitHub </a><br/>
-            <a href='https://linkedin.com/in/suresh-joshi-17a886314'  target="_blank">🔗 LinkedIn </a>
+       <div>
+            <a className='text-2xl font-semibold' href='/'>📧 Email: joshisuresh123u@gmail.com  </a><br></br>
+            <a className='text-2xl font-semibold' href='/'>📞 Phone: 8824365208   </a><br/>
+            <a className='text-2xl font-semibold' href='https://github.com/sureshjoshi88 '  target="_blank">🔗 GitHub </a><br/>
+            <a className='text-2xl font-semibold' href='https://linkedin.com/in/suresh-joshi-17a886314'  target="_blank">🔗 LinkedIn </a>
+       </div>
         </div>
         <div className='p-2'>
             <form action="">
