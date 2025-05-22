@@ -4,7 +4,7 @@ const Project = () => {
   const projects = [
     {
       title: 'To-do List App',
-      description: 'A simple to-do app using local storage.',
+      description: 'A simple to-do app using local storage crud system.',
       github: 'https://github.com/sureshjoshi88/todo-list-project/tree/main/todolist',
     },
     {
