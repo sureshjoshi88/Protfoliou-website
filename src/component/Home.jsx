@@ -2,6 +2,8 @@ import React from 'react'
 import suresh from '../images/suresh.jpg'
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { Link } from 'react-router-dom';
+import sureshcertificate from "../images/suresh_certificate.png"
+import suresh_cpp from "../images/suresh_c++.png"
 
 
 
@@ -75,6 +77,14 @@ const Home = () => {
               <button className="bg-green-600 text-white font-semibold px-5 py-2 rounded-xl hover:bg-gray-800 transition">  View Projects</button>
             </Link>
           </div>
+        </div>
+      </div>
+      <div className='grid md:grid-cols-2 mt-5 gap-4'>
+        <div className='mt-3 bg-white  p-2'>
+          <img className='rounded'  src={sureshcertificate} alt="" />
+        </div>
+        <div className='mt-3 bg-white  p-2'>
+          <img className='rounded'  src={suresh_cpp } alt="" />
         </div>
       </div>
     </>
