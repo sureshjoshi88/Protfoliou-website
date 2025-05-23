@@ -88,7 +88,7 @@ const Project = () => {
               target='_blank'
               rel='noopener noreferrer'
               
-              className='text-blue-600 underline'
+              className='text-blue-600 underline cursor-pointer'
             >
               View Code
             </a>
