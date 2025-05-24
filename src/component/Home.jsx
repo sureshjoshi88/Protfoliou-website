@@ -4,6 +4,8 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import sureshcertificate from "../images/suresh_certificate.png"
 import suresh_cpp from "../images/suresh_c++.png"
+import suresh_software from "../images/softwae_development_certificate.png"
+import JavaScript from "../images/javascript.png"
 
 
 
@@ -86,6 +88,37 @@ const Home = () => {
         <div className='mt-3 bg-white  p-2'>
           <img className='rounded'  src={suresh_cpp } alt="" />
         </div>
+       <div className="mt-3 bg-white p-2 rounded-lg shadow-md overflow-hidden group">
+  <div className="relative">
+    <img
+      className="w-full h- object-cover rounded-lg transition-transform duration-300 group-hover:scale-110"
+      src={suresh_software}
+      alt="software-develoment"
+    />
+    <div className="absolute inset-0 bg-gradient-to-tr from-yellow-400 via-red-500 to-pink-500 opacity-0 group-hover:opacity-60 transition-opacity duration-300 rounded-lg"></div>
+    <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+      <p className="text-white text-xl font-bold">softwae_development</p>
+    </div>
+  </div>
+</div>
+
+        
+     
+<div className="mt-3 bg-white p-2 rounded-lg shadow-md overflow-hidden group">
+  <div className="relative">
+    <img
+      className="w-full h- object-cover rounded-lg transition-transform duration-300 group-hover:scale-110"
+      src={JavaScript}
+      alt="JavaScript"
+    />
+    <div className="absolute inset-0 bg-gradient-to-tr from-yellow-400 via-red-500 to-pink-500 opacity-0 group-hover:opacity-60 transition-opacity duration-300 rounded-lg"></div>
+    <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+      <p className="text-white text-xl font-bold">JavaScript</p>
+    </div>
+  </div>
+</div>
+
+
       </div>
     </>
   )
