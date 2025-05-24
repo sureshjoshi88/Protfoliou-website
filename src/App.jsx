@@ -12,11 +12,23 @@ import { useState } from 'react'
 function App() {
 
 
-  const [mode ,setMode] = useState("light");
+  const [mode ,setMode] = useState("dark");
 
+
+  const toglemode = ()=>{
+    if(mode==="dark"){
+      document.body.style.backgroundColor = "white";
+      document.body.style.color = "black"
+      setMode("light")
+    }else{
+      document.body.style.backgroundColor = "#0a192f"
+      document.body.style.color = "white"
+      setMode("dark")
+    }
+  }
   return (
     <>
-      <Navbar mode = {mode}/>
+      <Navbar toglemode={toglemode} mode = {mode}/>
        <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />

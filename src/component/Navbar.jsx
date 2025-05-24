@@ -7,14 +7,14 @@ import { MdSunny } from "react-icons/md"
 const Navbar = (props) => {
   return (
     <div>
-      <nav className='p-2 fixed top-0 w-full bg-white z-40'>
+      <nav className={`p-2 fixed top-0 w-full  z-40 ${props.mode==="dark"?"bg-blue-900":"bg-white"}`}>
         <div className='flex justify-between'>
           <div>
             <h2 className='text-2xl'>Portfoliou</h2>
           </div>
 
           <div>
-            <ul className='flex gap-5 '>
+            <ul className='flex gap-5 font-medium '>
               <li><Link to='/'>Home</Link></li>
               <li><Link to='/about'>About</Link></li>
               <li><Link to='/'>Blog</Link></li>
@@ -23,7 +23,7 @@ const Navbar = (props) => {
           </div>
 
           <div>
-            {props.mode === "light" ?<button  className='text-2xl text-white'><MdSunny /></button>: <button  className='text-2xl text-black'><CiDark /></button>}
+            {props.mode === "dark" ?<button onClick={()=>props.toglemode()}  className='text-2xl font-semibold text-white cursor-pointer'><MdSunny /></button>: <button onClick={()=>props.toglemode()}  className='text-2xl text-black cursor-pointer font-semibold'><CiDark /></button>}
           </div>
           <div>
             <button className='text-2xl md:hidden'><FaBarsProgress /></button>
