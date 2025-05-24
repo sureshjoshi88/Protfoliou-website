@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Project = () => {
+const Project = (props) => {
 
 
   const projects = [
@@ -55,13 +55,13 @@ const Project = () => {
   {
     name: "Kaira Web UI",
     url: "https://github.com/sureshjoshi88/kaira-web",
-    techStack: ["HTML", "CSS"],
+    techStack: ["HTML ", "CSS"],
     description: "A landing page for a modern company, highlighting services and brand identity."
   },
   {
     name: "Education Website",
     url: "https://github.com/sureshjoshi88/education-web",
-    techStack: ["HTML", "CSS"],
+    techStack: ["HTML ", "CSS"],
     description: "An educational website design focusing on learning resources and course info."
   },
   {
@@ -79,9 +79,9 @@ const Project = () => {
       <h1 className='text-3xl font-bold mb-4 text-center'>My Projects</h1>
       <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
         {projects.map((project, index) => (
-          <div key={index} className='shadow p-4 rounded bg-white'>
-            <h2 className='text-xl font-semibold'>{project.name}</h2>
-            <p className='text-gray-700 my-2'>{project.title}</p>
+          <div key={index} className='shadow p-4 rounded bg-blue-300'>
+            <h2  className={`text-xl font-semibold ${props.mode==="dark"?"text-white":"text-black"}`}>{project.name}</h2>
+            <p className='text-gray-700 my-2'>{project.techStack}</p>
             <p className='text-gray-700 my-2'>{project.description}</p>
             <a
               href={project.github}
