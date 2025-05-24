@@ -82,9 +82,19 @@ const Home = () => {
         </div>
       </div>
       <div className='grid md:grid-cols-2 mt-5 gap-4'>
-        <div className='mt-3 bg-white  p-2'>
-          <img className='rounded'  src={sureshcertificate} alt="" />
-        </div>
+         <div className="mt-3 bg-white p-2 rounded-lg shadow-md overflow-hidden group">
+  <div className="relative">
+    <img
+      className="w-full h- object-cover rounded-lg transition-transform duration-300 group-hover:scale-110"
+      src={sureshcertificate}
+      alt="React-certificate"
+    />
+    <div className="absolute inset-0 bg-gradient-to-tr from-yellow-400 via-red-500 to-pink-500 opacity-0 group-hover:opacity-60 transition-opacity duration-300 rounded-lg"></div>
+    <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+      <p className="text-white text-xl font-bold">React certificate</p>
+    </div>
+  </div>
+</div>
            <div className="mt-3 bg-white p-2 rounded-lg shadow-md overflow-hidden group">
   <div className="relative">
     <img

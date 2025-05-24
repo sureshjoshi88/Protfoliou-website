@@ -1,6 +1,10 @@
 
 
 @import "tailwindcss";
+*{
+background-color: #0a192f;
+    color: white;
+}
 .background-image{
     background-image: url("https://mrwallpaper.com/images/hd/simple-dark-backgrounds-gradient-8fc31cmg57iafkxt.jpg");
     height: 100vh;

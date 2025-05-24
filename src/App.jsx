@@ -7,12 +7,16 @@ import Contact from './component/Contact'
 import About from './component/About'
 import Project from './component/Project'
 import { Routes, Route } from 'react-router-dom';
+import { useState } from 'react'
 
 function App() {
 
+
+  const [mode ,setMode] = useState("light");
+
   return (
     <>
-      <Navbar/>
+      <Navbar mode = {mode}/>
        <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
