@@ -7,61 +7,61 @@ const Project = (props) => {
   {
     name: "Pretics React",
     url: "https://github.com/sureshjoshi88/pretics-react",
-    techStack: ["React.js"],
+    techStack: ["React.js tailwind-css"],
     description: "A React-based app showcasing reusable components and modern UI design."
   },
   {
     name: "Portfolio Website",
     url: "https://github.com/sureshjoshi88/Protfoliou-website",
-    techStack: ["HTML", "CSS", "JavaScript"],
+    techStack: ["react.js"," tailwind-css"],
     description: "A personal portfolio site to display projects, skills, and contact information."
   },
   {
     name: "To-do List App",
     url: "https://github.com/sureshjoshi88/todo-list-project",
-    techStack: ["JavaScript"],
+    techStack: [" HTML"," css", " botstrap", " JavaScript"],
     description: "A to-do list app using DOM manipulation and local storage to manage tasks."
   },
   {
     name: "E-commerce Web UI",
     url: "https://github.com/sureshjoshi88/ecommerce-web",
-    techStack: ["HTML", "CSS"],
+    techStack: ["HTML ", "CSS ","javascript" ],
     description: "A responsive e-commerce frontend layout with product display sections."
   },
   {
     name: "News App",
     url: "https://github.com/sureshjoshi88/Newsapp",
-    techStack: ["React.js", "API Integration"],
+    techStack: ["React.js", " API Integration"],
     description: "A news fetching application using React and a news API to display headlines by category."
   },
   {
     name: "Weather App",
     url: "https://github.com/sureshjoshi88/weather-app",
-    techStack: ["React.js", "API Integration"],
+    techStack: ["html "," css"," javascipt", " API Integration"],
     description: "A weather forecasting app using React and OpenWeatherMap API with real-time updates."
   },
   {
     name: "Text Utilities Tool",
     url: "https://github.com/sureshjoshi88/my-first-for-react-in-textutils",
-    techStack: ["React.js"],
+    techStack: ["React.js"," botstrap"],
     description: "A text analysis tool built with React that can count words, convert case, and more."
   },
   {
     name: "Hotel Website",
     url: "https://github.com/sureshjoshi88/hotel-web",
-    techStack: ["HTML", "CSS"],
+    techStack: ["HTML", " CSS" ," botstrap"],
     description: "A stylish hotel website design with sections for rooms, bookings, and contact info."
   },
   {
     name: "Kaira Web UI",
     url: "https://github.com/sureshjoshi88/kaira-web",
-    techStack: ["HTML ", "CSS"],
+    techStack: ["HTML ", "CSS"," botstrap"],
     description: "A landing page for a modern company, highlighting services and brand identity."
   },
   {
     name: "Education Website",
     url: "https://github.com/sureshjoshi88/education-web",
-    techStack: ["HTML ", "CSS"],
+    techStack: ["HTML ", " CSS" ," botstrap"],
     description: "An educational website design focusing on learning resources and course info."
   },
   {
