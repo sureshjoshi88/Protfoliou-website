@@ -3,14 +3,15 @@ import { FaBarsProgress } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 import { CiDark } from "react-icons/ci"
 import { MdSunny } from "react-icons/md"
+import logos from "../images/portfolio_(1).png"
 
 const Navbar = (props) => {
   return (
     <div>
-      <nav className={`p-2 fixed top-0 w-full  z-40 ${props.mode==="dark"?"bg-blue-900":"bg-white"}`}>
+      <nav className={`p-2 fixed top-0 w-full  z-40 bg-white/30 backdrop-blur-md `}>
         <div className='flex justify-between'>
           <div>
-            <h2 className='text-2xl'>Portfoliou</h2>
+            <img className='w-10 h-10 rounded' src={[logos]} alt="" />
           </div>
 
           <div>
