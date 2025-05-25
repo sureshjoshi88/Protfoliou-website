@@ -14,7 +14,7 @@ const Navbar = (props) => {
             <img className='w-10 h-10 rounded' src={[logos]} alt="" />
           </div>
 
-          <div>
+          <div className='hidden md:flex'>
             <ul className='flex gap-5 font-medium '>
               <li><Link to='/'>Home</Link></li>
               <li><Link to='/about'>About</Link></li>
@@ -31,8 +31,19 @@ const Navbar = (props) => {
           </div>
         </div>
 
-
+<div>
+        <div className='md:hidden absolute bg-white p-1  h-60 w-30 rounded -right-100 text-black'>
+          <p className='text-end text-3xl pe-2'>x</p>
+            <ul className=' gap-5 font-medium text-xl p-3'>
+              <li className='mt-3 cursor-pointer'><Link to='/'>Home</Link></li>
+              <li className='mt-3 cursor-pointer'><Link to='/about'>About</Link></li>
+              <li className='mt-3 cursor-pointer'><Link to='/'>Blog</Link></li>
+              <li className='mt-3 cursor-pointer'><Link to='/contact'>Contact</Link></li>
+            </ul>
+          </div>
+      </div>
       </nav>
+      
     </div>
   )
 }

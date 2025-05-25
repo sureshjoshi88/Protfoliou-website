@@ -16,7 +16,7 @@ const Home = () => {
         <div className='background-image'>
           <div className='grid md:grid-cols-2 justify-around items-center h-150 '>
             <div className='p-1 mt-3 flex justify-center'>
-              <img className='h-90 w-90   rounded-full' src={suresh} alt="" />
+              <img className='md:h-90 md:w-90 h-60 w-60 mt-3  rounded-full' src={suresh} alt="" />
             </div>
             <div className='p-1 mt-3'>
 
@@ -31,14 +31,14 @@ const Home = () => {
         </div>
       </div>
 
-      <div className='grid grid-cols-3 mt-4'>
-        <div className='p-2'>
+      <div className='grid md:grid-cols-3 mt-4'>
+        <div className='p-2 mt-3'>
           <h3 className='font-semibold text-2xl'>Tech Stack</h3>
           <div >
             <p>HTML | CSS | JavaScript | React | Botstrap | Tailwind | Git | GitHub</p>
           </div>
         </div>
-        <div className='p-2 flex justify-center'>
+        <div className='p-2 flex justify-center mt-3'>
           <div className="flex gap-6 mb-6 text-2xl">
             <a
               href="https://github.com/sureshjoshi88"
@@ -64,7 +64,7 @@ const Home = () => {
             </a>
           </div>
         </div>
-        <div className='p-2 '>
+        <div className='p-2 mt-3'>
           <div className="flex gap-4">
             <a
               href="/resume.pdf"
@@ -75,69 +75,69 @@ const Home = () => {
             </a>
 
 
-            <Link   to="/projects" >
+            <Link to="/projects" >
               <button className="bg-green-600 text-white font-semibold px-5 py-2 rounded-xl hover:bg-gray-800 transition">  View Projects</button>
             </Link>
           </div>
         </div>
       </div>
       <div className='grid md:grid-cols-2 mt-5 gap-4'>
-         <div className="mt-3 bg-white p-2 rounded-lg shadow-md overflow-hidden group">
-  <div className="relative">
-    <img
-      className="w-full h- object-cover rounded-lg transition-transform duration-300 group-hover:scale-110"
-      src={sureshcertificate}
-      alt="React-certificate"
-    />
-    <div className="absolute inset-0 bg-gradient-to-tr from-yellow-400 via-red-500 to-pink-500 opacity-0 group-hover:opacity-60 transition-opacity duration-300 rounded-lg"></div>
-    <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-      <p className="text-white text-xl font-bold">React certificate</p>
-    </div>
-  </div>
-</div>
-           <div className="mt-3 bg-white p-2 rounded-lg shadow-md overflow-hidden group">
-  <div className="relative">
-    <img
-      className="w-full h- object-cover rounded-lg transition-transform duration-300 group-hover:scale-110"
-      src={suresh_cpp}
-      alt="C++ certificate"
-    />
-    <div className="absolute inset-0 bg-gradient-to-tr from-yellow-400 via-red-500 to-pink-500 opacity-0 group-hover:opacity-60 transition-opacity duration-300 rounded-lg"></div>
-    <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-      <p className="text-white text-xl font-bold">C++</p>
-    </div>
-  </div>
-</div>
+        <div className="mt-3 bg-white p-2 rounded-lg shadow-md overflow-hidden group">
+          <div className="relative">
+            <img
+              className="w-full h- object-cover rounded-lg transition-transform duration-300 group-hover:scale-110"
+              src={sureshcertificate}
+              alt="React-certificate"
+            />
+            <div className="absolute inset-0 bg-gradient-to-tr from-yellow-400 via-red-500 to-pink-500 opacity-0 group-hover:opacity-60 transition-opacity duration-300 rounded-lg"></div>
+            <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <p className="text-white text-xl font-bold">React certificate</p>
+            </div>
+          </div>
+        </div>
+        <div className="mt-3 bg-white p-2 rounded-lg shadow-md overflow-hidden group">
+          <div className="relative">
+            <img
+              className="w-full h- object-cover rounded-lg transition-transform duration-300 group-hover:scale-110"
+              src={suresh_cpp}
+              alt="C++ certificate"
+            />
+            <div className="absolute inset-0 bg-gradient-to-tr from-yellow-400 via-red-500 to-pink-500 opacity-0 group-hover:opacity-60 transition-opacity duration-300 rounded-lg"></div>
+            <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <p className="text-white text-xl font-bold">C++</p>
+            </div>
+          </div>
+        </div>
 
-       <div className="mt-3 bg-white p-2 rounded-lg shadow-md overflow-hidden group">
-  <div className="relative">
-    <img
-      className="w-full h- object-cover rounded-lg transition-transform duration-300 group-hover:scale-110"
-      src={suresh_software}
-      alt="software-develoment"
-    />
-    <div className="absolute inset-0 bg-gradient-to-tr from-yellow-400 via-red-500 to-pink-500 opacity-0 group-hover:opacity-60 transition-opacity duration-300 rounded-lg"></div>
-    <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-      <p className="text-white text-xl font-bold">softwae_development</p>
-    </div>
-  </div>
-</div>
+        <div className="mt-3 bg-white p-2 rounded-lg shadow-md overflow-hidden group">
+          <div className="relative">
+            <img
+              className="w-full h- object-cover rounded-lg transition-transform duration-300 group-hover:scale-110"
+              src={suresh_software}
+              alt="software-develoment"
+            />
+            <div className="absolute inset-0 bg-gradient-to-tr from-yellow-400 via-red-500 to-pink-500 opacity-0 group-hover:opacity-60 transition-opacity duration-300 rounded-lg"></div>
+            <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <p className="text-white text-xl font-bold">softwae_development</p>
+            </div>
+          </div>
+        </div>
 
-        
-     
-<div className="mt-3 bg-white p-2 rounded-lg shadow-md overflow-hidden group">
-  <div className="relative">
-    <img
-      className="w-full h- object-cover rounded-lg transition-transform duration-300 group-hover:scale-110"
-      src={JavaScript}
-      alt="JavaScript"
-    />
-    <div className="absolute inset-0 bg-gradient-to-tr from-yellow-400 via-red-500 to-pink-500 opacity-0 group-hover:opacity-60 transition-opacity duration-300 rounded-lg"></div>
-    <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-      <p className="text-white text-xl font-bold">JavaScript</p>
-    </div>
-  </div>
-</div>
+
+
+        <div className="mt-3 bg-white p-2 rounded-lg shadow-md overflow-hidden group">
+          <div className="relative">
+            <img
+              className="w-full h- object-cover rounded-lg transition-transform duration-300 group-hover:scale-110"
+              src={JavaScript}
+              alt="JavaScript"
+            />
+            <div className="absolute inset-0 bg-gradient-to-tr from-yellow-400 via-red-500 to-pink-500 opacity-0 group-hover:opacity-60 transition-opacity duration-300 rounded-lg"></div>
+            <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <p className="text-white text-xl font-bold">JavaScript</p>
+            </div>
+          </div>
+        </div>
 
 
       </div>
