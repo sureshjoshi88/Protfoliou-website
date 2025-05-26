@@ -1,4 +1,3 @@
-// import { useState } from 'react'
 
 import './App.css'
 import Navbar from './component/Navbar'
@@ -10,17 +9,28 @@ import { Routes, Route } from 'react-router-dom';
 import { useState } from 'react'
 
 function App() {
+  const toggleButton = () => {
+    // const togleicon = document.getElementById("togle-bar");
+    let side_bar = document.getElementById("side-bar");
+    side_bar.style.transition = "0.8s 0.2s  linear"
+    side_bar.style.right = "0px";
+  }
+  const removeToggle = () => {
+    let side_bar = document.getElementById("side-bar");
+    side_bar.style.transition = "0.8s 0.2s  linear"
+
+    side_bar.style.right = "-100%";
+  }
+
+  const [mode, setMode] = useState("dark");
 
 
-  const [mode ,setMode] = useState("dark");
-
-
-  const toglemode = ()=>{
-    if(mode==="dark"){
+  const toglemode = () => {
+    if (mode === "dark") {
       document.body.style.backgroundColor = "white";
       document.body.style.color = "black"
       setMode("light")
-    }else{
+    } else {
       document.body.style.backgroundColor = "#0a192f"
       document.body.style.color = "white"
       setMode("dark")
@@ -28,15 +38,15 @@ function App() {
   }
   return (
     <>
-      <Navbar toglemode={toglemode} mode = {mode}/>
-       <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/contact" element={<Contact />} />
-                <Route path="/projects" element={<Project mode = {mode}/>}/>
-                
-            </Routes>
-     
+      <Navbar toglemode={toglemode} mode={mode} toggleButton={toggleButton} removeToggle={removeToggle} />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/projects" element={<Project mode={mode} />} />
+
+      </Routes>
+
     </>
   )
 }
