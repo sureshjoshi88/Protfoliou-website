@@ -10,7 +10,6 @@ import { useState } from 'react'
 
 function App() {
   const toggleButton = () => {
-    // const togleicon = document.getElementById("togle-bar");
     let side_bar = document.getElementById("side-bar");
     side_bar.style.transition = "0.8s 0.2s  linear"
     side_bar.style.right = "0px";
