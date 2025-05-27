@@ -84,7 +84,7 @@ const Project = (props) => {
             <p className='text-gray-700 my-2'>{project.techStack}</p>
             <p className='text-gray-700 my-2'>{project.description}</p>
             <a
-              href={project.github}
+              href={project.url}
               target='_blank'
               rel='noopener noreferrer'
               
