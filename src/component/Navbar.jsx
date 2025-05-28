@@ -9,7 +9,7 @@ const Navbar = (props) => {
   return (
     <div>
       <nav className={`p-2 fixed top-0 w-full  z-40 ${props.mode==="light"?"bg-violet-50":"bg-mode"} `}>
-        <div className='flex justify-between'>
+        <div className='flex justify-between p-2'>
           <div>
             <img className='w-10 h-10 rounded' src={[logos]} alt="" />
           </div>
