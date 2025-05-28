@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div className='mt-16 p-1'>
          <p>I d love to hear from you! Whether you have a question, want to collaborate, or just want to say hi — feel free to drop a message.</p>
-      <div className='grid grid-cols-2 pt-10'>
+      <div className='grid md:grid-cols-2 pt-10'>
         <div className='p-3 flex justify-center items-center'>
            
        <div>
