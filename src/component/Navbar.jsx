@@ -8,7 +8,7 @@ import logos from "../images/portfolio_(1).png"
 const Navbar = (props) => {
   return (
     <div>
-      <nav className={`p-2 fixed top-0 w-full  z-40 bg-white/30 backdrop-blur-md `}>
+      <nav className={`p-2 fixed top-0 w-full  z-40 ${props.mode==="light"?"bg-violet-50":"bg-mode"} `}>
         <div className='flex justify-between'>
           <div>
             <img className='w-10 h-10 rounded' src={[logos]} alt="" />

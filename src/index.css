@@ -5,11 +5,13 @@ body{
 background-color: #0a192f;
     color: white;
 }
-.background-image{
-    background-image: url("https://mrwallpaper.com/images/hd/simple-dark-backgrounds-gradient-8fc31cmg57iafkxt.jpg");
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
+.bg-mode{
+    background-color: #091628;
+}
 
+
+@media (max-width:500px) {
+    .img-div{
+        margin-top: 40px;
+    }
 }

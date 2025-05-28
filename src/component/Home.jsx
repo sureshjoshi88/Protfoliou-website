@@ -15,7 +15,7 @@ const Home = () => {
       <div className='mt-5'>
         <div className='background-image'>
           <div className='grid md:grid-cols-2 justify-around items-center h-150 '>
-            <div className='p-1 mt-3 flex justify-center'>
+            <div className='p-1 mt-3 flex justify-center img-div'>
               <img className='md:h-90 md:w-90 h-60 w-60 mt-3  rounded-full' src={suresh} alt="" />
             </div>
             <div className='p-1 mt-3'>
@@ -38,7 +38,7 @@ const Home = () => {
             <p>HTML | CSS | JavaScript | React | Botstrap | Tailwind | Git | GitHub</p>
           </div>
         </div>
-        <div className='p-2 flex justify-center mt-3'>
+        <div className='p-2 flex md:justify-center mt-3'>
           <div className="flex gap-6 mb-6 text-2xl">
             <a
               href="https://github.com/sureshjoshi88"
