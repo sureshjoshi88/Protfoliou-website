@@ -1,5 +1,5 @@
 import React from 'react'
-import suresh from '../images/suresh.jpg'
+import suresh from '../images/suresh2.jpg'
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import sureshcertificate from "../images/suresh_certificate.png"
