@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import { CiDark } from "react-icons/ci"
 import { MdSunny } from "react-icons/md"
 import logos from "../images/portfolio_(1).png"
+import { MdCancel } from "react-icons/md";
+
 
 const Navbar = (props) => {
   return (
@@ -32,8 +34,8 @@ const Navbar = (props) => {
         </div>
 
 <div>
-        <div id='side-bar' className='md:hidden absolute bg-white p-1  h-60 w-30 rounded -right-100 text-black'>
-          <p className='text-end text-3xl pe-2' onClick={()=>props.removeToggle()}>x</p>
+        <div id='side-bar' className={`md:hidden absolute  p-1 top-0.5  h-60 w-30 rounded -right-100 ${props.mode==='light'?'bg-white':'bg-mode'}`}>
+          <p className='flex justify-end text-3xl pe-2 text-red-600' onClick={()=>props.removeToggle()}><MdCancel /></p>
             <ul className=' gap-5 font-medium text-xl p-3'>
               <li className='mt-3 cursor-pointer'><Link to='/'>Home</Link></li>
               <li className='mt-3 cursor-pointer'><Link to='/about'>About</Link></li>
