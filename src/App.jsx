@@ -39,7 +39,7 @@ function App() {
     <>
       <Navbar toglemode={toglemode} mode={mode} toggleButton={toggleButton} removeToggle={removeToggle} />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home  mode={mode}/>} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Project mode={mode} />} />

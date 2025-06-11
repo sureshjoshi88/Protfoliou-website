@@ -9,21 +9,21 @@ import JavaScript from "../images/javascript.png"
 
 
 
-const Home = () => {
+const Home = (props) => {
   return (
     <>
       <div className='mt-5'>
-        <div className='background-image'>
-          <div className='grid md:grid-cols-2 justify-around items-center h-150 '>
-            <div className='p-1 mt-3 flex justify-center img-div'>
+        <div>
+          <div className='grid md:grid-cols-2 justify-around items-center h-auto md:mt-15 mt-5 '>
+            <div className='p-2 mt-3 flex justify-center img-div'>
               <img className='md:h-90 md:w-90 h-60 w-60 mt-3  rounded-full' src={suresh} alt="" />
             </div>
-            <div className='p-1 mt-3'>
+            <div className='p-2 mt-3'>
 
-              <p className='text-red-600 font-bold text-4xl text-shadow-white text-shadow-md'>My name is Suresh Joshi</p>
-              <p className='text-green-500 font-bold text-3xl text-shadow-white text-shadow-md pt-2'> I am a Full Stack Developer</p>
+              <p className='text-red-600 font-bold text-4xl text-shadow-white text-shadow-md'> Hello My name is Suresh Joshi</p>
+              <p className='text-green-500 font-bold text-3xl text-shadow-white text-shadow-md pt-2'> I am Software Engineer</p>
               <div className='mt-7'>
-                <p className='font-semibold text-blue-100  text-2xl'>I build modern web applications using React, Node.js, and MongoDB. I'm passionate about coding and love solving real-world problems with efficient solutions.</p>
+                <p className={`font-semibold text-blue-100  text-2xl ${props.mode==="light"?'text-blue-800':'text-blue-100'}`}>I build modern web applications using React, Node.js, and MongoDB. I'm passionate about coding and love solving real-world problems with efficient solutions.</p>
               </div>
             </div>
 
@@ -39,7 +39,7 @@ const Home = () => {
           </div>
         </div>
         <div className='p-2 flex md:justify-center mt-3'>
-          <div className="flex gap-6 mb-6 text-2xl">
+          <div className="flex gap-6 mb-6 text-3xl">
             <a
               href="https://github.com/sureshjoshi88"
               target="_blank"

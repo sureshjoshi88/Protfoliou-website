@@ -8,10 +8,10 @@ const Contact = () => {
         <div className='p-3 flex justify-center items-center'>
            
        <div>
-            <a className='text-2xl font-semibold mt-2' href='/'>📧 Email: joshisuresh123u@gmail.com  </a><br/>
-            <a className='text-2xl font-semibold mt-2' href='/'>📞 Phone: 8824365208   </a><br/>
-            <a className='text-2xl font-semibold mt-2' href='https://github.com/sureshjoshi88 '  target="_blank">🔗 GitHub </a><br/>
-            <a className='text-2xl font-semibold mt-2' href='https://linkedin.com/in/suresh-joshi-17a886314'  target="_blank">🔗 LinkedIn </a>
+            <a className='md:text-2xl text-xl  md:font-semibold mt-2' href='/'>📧 Email: joshisuresh123u@gmail.com  </a><br/>
+            <a className='md:text-2xl text-xl  md:font-semibold mt-2' href='/'>📞 Phone: 8824365208   </a><br/>
+            <a className='md:text-2xl text-xl  md:font-semibold mt-2' href='https://github.com/sureshjoshi88 '  target="_blank">🔗 GitHub </a><br/>
+            <a className='md:text-2xl text-xl   md:font-semibold mt-2' href='https://linkedin.com/in/suresh-joshi-17a886314'  target="_blank">🔗 LinkedIn </a>
        </div>
         </div>
         <div className='p-2'>
