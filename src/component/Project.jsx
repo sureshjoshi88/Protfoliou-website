@@ -69,7 +69,13 @@ const Project = (props) => {
     url: "https://github.com/sureshjoshi88/my-react-app",
     techStack: ["React.js"],
     description: "A starter React project setup, useful for testing components and experimenting with features."
-  }
+  },
+  {
+  name: "Blog App",
+  url: "https://github.com/sureshjoshi88/Bloog-app-",
+  techStack: ["React.js", "JavaScript", "CSS"],
+  description: "A blog application built with React to add, search, and display blog posts with dynamic routing and interactive UI and CRUD system."
+}
 ];
 
 
