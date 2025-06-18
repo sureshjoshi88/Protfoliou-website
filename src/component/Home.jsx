@@ -15,7 +15,7 @@ const Home = (props) => {
       <div className='mt-5'>
         <div>
           <div className='grid md:grid-cols-2 justify-around items-center h-auto md:mt-15 mt-5 '>
-            <div className='p-2 mt-3 flex justify-center img-div'>
+            <div className='p-2 mt-10 flex justify-center img-div'>
               <img className='md:h-90 md:w-90 h-60 w-60 mt-3  rounded-full' src={suresh} alt="" />
             </div>
             <div className='p-2 mt-3'>

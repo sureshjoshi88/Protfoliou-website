@@ -37,10 +37,10 @@ const Navbar = (props) => {
         <div id='side-bar' className={`md:hidden absolute  p-1 top-0.5  h-60 w-30 rounded -right-100 ${props.mode==='light'?'bg-white':'bg-mode'}`}>
           <p className='flex justify-end text-3xl pe-2 text-red-600' onClick={()=>props.removeToggle()}><MdCancel /></p>
             <ul className=' gap-5 font-medium text-xl p-3'>
-              <li className='mt-3 cursor-pointer'><NavLink to='/'>Home</NavLink></li>
-              <li className='mt-3 cursor-pointer'><NavLink to='/about'>About</NavLink></li>
-              <li className='mt-3 cursor-pointer'><NavLink to='/projects'>Project</NavLink></li>
-              <li className='mt-3 cursor-pointer'><NavLink to='/contact'>Contact</NavLink></li>
+              <li className='mt-3 cursor-pointer'><NavLink className={({isActive})=>isActive?'text-blue-400 border-b-2':""} to='/'>Home</NavLink></li>
+              <li className='mt-3 cursor-pointer'><NavLink className={({isActive})=>isActive?'text-blue-400 border-b-2':""} to='/about'>About</NavLink></li>
+              <li className='mt-3 cursor-pointer'><NavLink className={({isActive})=>isActive?'text-blue-400 border-b-2':""} to='/projects'>Project</NavLink></li>
+              <li className='mt-3 cursor-pointer'><NavLink className={({isActive})=>isActive?'text-blue-400 border-b-2':""} to='/contact'>Contact</NavLink></li>
             </ul>
           </div>
       </div>
