@@ -73,8 +73,14 @@ const Project = (props) => {
   {
   name: "Blog App",
   url: "https://github.com/sureshjoshi88/Bloog-app-",
-  techStack: ["React.js", "JavaScript", "CSS"],
+  techStack: ["React.js ", " JavaScript", " CSS"],
   description: "A blog application built with React to add, search, and display blog posts with dynamic routing and interactive UI and CRUD system."
+},
+  {
+  name: "Eccomerce",
+  url: "https://github.com/sureshjoshi88/pretics-react",
+  techStack: ["React.js ", " JavaScript", " Tailwind-CSS"],
+  description: "A responsive e-commerce frontend layout with product display sections. and add to cart feature and add and delete functionalty authentication"
 }
 ];
 
