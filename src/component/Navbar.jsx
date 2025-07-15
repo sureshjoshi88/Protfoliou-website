@@ -13,11 +13,11 @@ const Navbar = (props) => {
       <nav className={`p-2 fixed top-0 w-full  z-40 ${props.mode==="light"?"bg-violet-50":"bg-mode"} `}>
         <div className='flex justify-between p-2'>
           <div>
-            <img className='w-10 h-10 rounded' src={[logos]} alt="" />
+            <img className='w-10 h-10 rounded' src={logos} alt="" />
           </div>
 
           <div className='hidden md:flex'>
-            <ul className='flex gap-5 font-medium '>
+            <ul className='flex md:gap-16 gap-10 font-medium '>
               <li><NavLink className={({isActive})=>isActive?'text-blue-400 border-b-2':""} to='/'>Home</NavLink></li>
               <li><NavLink className={({isActive})=>isActive?'text-blue-400 border-b-2':""} to='/about'>About</NavLink></li>
               <li><NavLink className={({isActive})=>isActive?'text-blue-400 border-b-2':""} to='/projects'>Project</NavLink></li>
@@ -26,7 +26,7 @@ const Navbar = (props) => {
           </div>
 
           <div>
-            {props.mode === "dark" ?<button onClick={()=>props.toglemode()}  className='text-2xl font-semibold text-white cursor-pointer'><MdSunny /></button>: <button onClick={()=>props.toglemode()}  className='text-2xl text-black cursor-pointer font-semibold'><CiDark /></button>}
+            {props.mode === "dark" ?<button onClick={()=>props.toglemode()}  className='text-2xl font-semibold text-white cursor-pointer '><MdSunny /></button>: <button onClick={()=>props.toglemode()}  className='text-2xl text-black cursor-pointer font-semibold'><CiDark /></button>}
           </div>
           <div>
             <button  onClick={()=>props.toggleButton()} className='text-2xl md:hidden'><FaBarsProgress /></button>
