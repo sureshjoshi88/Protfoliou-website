@@ -91,7 +91,7 @@ const Project = (props) => {
       <h1 className='text-3xl font-bold mb-4 text-center'>My Projects</h1>
       <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
         {projects.map((project, index) => (
-          <div key={index} className={`shadow p-4 rounded ${props.mode==="light"?'bg-blue-300':'bgcolor'}`}>
+          <div key={index} className={`shadow p-4 rounded-xl ${props.mode==="light"?'bg-blue-300':'bgcolor'}`}>
             <h2  className={`text-xl font-semibold`}>{project.name}</h2>
             <p className=' my-2'>{project.techStack}</p>
             <p className=' my-2'>{project.description}</p>
