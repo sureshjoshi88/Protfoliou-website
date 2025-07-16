@@ -5,6 +5,7 @@ import { CiDark } from "react-icons/ci"
 import { MdSunny } from "react-icons/md"
 import logos from "../images/portfolio_(1).png"
 import { MdCancel } from "react-icons/md";
+import { memo } from 'react';
 
 
 const Navbar = (props) => {
@@ -50,4 +51,4 @@ const Navbar = (props) => {
   )
 }
 
-export default Navbar
+export default memo(Navbar)
