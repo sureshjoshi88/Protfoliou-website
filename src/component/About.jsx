@@ -1,5 +1,6 @@
 import React from 'react'
 import suresh from "../images/suresh-style.jpeg"
+import { memo } from 'react'
 const About = () => {
   return (
     <div>
@@ -53,4 +54,4 @@ const About = () => {
   )
 }
 
-export default About
+export default memo(About)

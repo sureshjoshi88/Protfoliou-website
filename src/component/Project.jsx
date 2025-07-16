@@ -1,4 +1,5 @@
 import React from 'react';
+import {memo} from 'react'
 
 const Project = (props) => {
 
@@ -112,4 +113,4 @@ const Project = (props) => {
   );
 };
 
-export default Project;
+export default memo(Project);

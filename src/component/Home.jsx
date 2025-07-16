@@ -6,6 +6,7 @@ import sureshcertificate from "../images/suresh_certificate.png"
 import suresh_cpp from "../images/suresh_c++.png"
 import suresh_software from "../images/softwae_development_certificate.png"
 import JavaScript from "../images/javascript.png"
+import { memo } from 'react';
 
 
 
@@ -145,4 +146,4 @@ const Home = (props) => {
   )
 }
 
-export default Home
+export default memo(Home)
