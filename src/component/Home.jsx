@@ -24,7 +24,7 @@ const Home = (props) => {
               <p className='text-red-600 font-bold text-4xl text-shadow-white text-shadow-md'> Hello My name is Suresh Joshi</p>
               <p className='text-green-500 font-bold text-3xl text-shadow-white text-shadow-md pt-2'> I am Software Engineer</p>
               <div className='mt-7'>
-                <p className={`font-semibold text-blue-100  text-2xl ${props.mode==="light"?'text-blue-800':'text-blue-100'}`}>I build modern web applications using React, Node.js, and MongoDB. I'm passionate about coding and love solving real-world problems with efficient solutions.</p>
+                <p className={`font-semibold text-blue-100  text-2xl ${props.mode === "light" ? 'text-blue-800' : 'text-blue-100'}`}>I build modern web applications using React, Node.js, and MongoDB. I'm passionate about coding and love solving real-world problems with efficient solutions.</p>
               </div>
             </div>
 
