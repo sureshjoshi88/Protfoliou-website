@@ -36,7 +36,7 @@ const Home = (props) => {
         <div className='p-2 mt-3'>
           <h3 className='font-semibold text-2xl'>Tech Stack</h3>
           <div >
-            <p>HTML | CSS | JavaScript | React | Botstrap | Tailwind | C++ | Git | GitHub</p>
+            <p>HTML | CSS | JavaScript | React | Botstrap | Tailwind | C++ | Node.js | Express.js | MongoDB | Git | GitHub</p>
           </div>
         </div>
         <div className='p-2 flex md:justify-center mt-3'>
