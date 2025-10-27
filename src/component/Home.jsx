@@ -6,6 +6,7 @@ import sureshcertificate from "../images/suresh_certificate.png"
 import suresh_cpp from "../images/suresh_c++.png"
 import suresh_software from "../images/softwae_development_certificate.png"
 import JavaScript from "../images/javascript.png"
+import nodejs from "../images/node.png"
 import { memo } from 'react';
 
 
@@ -140,6 +141,20 @@ const Home = (props) => {
           </div>
         </div>
 
+
+<div className="mt-3 bg-white p-2 rounded-lg shadow-md overflow-hidden group">
+          <div className="relative">
+            <img
+              className="w-full h- object-cover rounded-lg transition-transform duration-300 group-hover:scale-110"
+              src={nodejs}
+              alt="nodejs"
+            />
+            <div className="absolute inset-0 bg-gradient-to-tr from-yellow-400 via-red-500 to-pink-500 opacity-0 group-hover:opacity-60 transition-opacity duration-300 rounded-lg"></div>
+            <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <p className="text-white text-xl font-bold">Node.js</p>
+            </div>
+          </div>
+        </div>
 
       </div>
     </>
