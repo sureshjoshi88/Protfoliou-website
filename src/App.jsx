@@ -7,6 +7,7 @@ import About from './component/About'
 import Project from './component/Project'
 import { Routes, Route } from 'react-router-dom';
 import { useState } from 'react'
+import Foter from './component/Foter'
 
 function App() {
   const toggleButton = () => {
@@ -45,7 +46,7 @@ function App() {
         <Route path="/projects" element={<Project mode={mode} />} />
 
       </Routes>
-
+        <Foter/>
     </>
   )
 }
