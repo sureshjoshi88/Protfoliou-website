@@ -86,8 +86,8 @@ const Project = (props) => {
   {
   name: "Brain-boster",
   url: "https://github.com/sureshjoshi88/brain-boster-app",
-  techStack: ["React.js ", " JavaScript", " Tailwind-CSS"],
-  description: "A responsive e-commerce frontend layout with product display sections. and add to cart feature and add and delete functionalty authentication"
+  techStack: ["React.js ", " JavaScript", " Tailwind-CSS","Firebase"],
+  description: "Developed a responsive quiz app using React, Tailwind CSS, and Firebase with multi-subject support, secure auth, real-time data, and personalized result history — showcasing strong frontend and BaaS integration skills."
 }
 ];
 
