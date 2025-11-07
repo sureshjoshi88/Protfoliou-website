@@ -82,6 +82,12 @@ const Project = (props) => {
   url: "https://github.com/sureshjoshi88/pretics-react",
   techStack: ["React.js ", " JavaScript", " Tailwind-CSS"],
   description: "A responsive e-commerce frontend layout with product display sections. and add to cart feature and add and delete functionalty authentication"
+},
+  {
+  name: "Eccomerce",
+  url: "https://github.com/sureshjoshi88/pretics-react",
+  techStack: ["React.js ", " JavaScript", " Tailwind-CSS"],
+  description: "A responsive e-commerce frontend layout with product display sections. and add to cart feature and add and delete functionalty authentication"
 }
 ];
 
