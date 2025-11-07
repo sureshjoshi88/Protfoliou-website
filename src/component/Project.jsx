@@ -84,8 +84,8 @@ const Project = (props) => {
   description: "A responsive e-commerce frontend layout with product display sections. and add to cart feature and add and delete functionalty authentication"
 },
   {
-  name: "Eccomerce",
-  url: "https://github.com/sureshjoshi88/pretics-react",
+  name: "Brain-boster",
+  url: "https://github.com/sureshjoshi88/brain-boster-app",
   techStack: ["React.js ", " JavaScript", " Tailwind-CSS"],
   description: "A responsive e-commerce frontend layout with product display sections. and add to cart feature and add and delete functionalty authentication"
 }
