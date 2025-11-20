@@ -5,8 +5,8 @@ const About = () => {
   return (
     <div>
       <div className='grid md:grid-cols-2 gap-5 p-1 mt-17'>
-        <div className='p-2 mt-5'>
-            <p className='text-2xl font-semibold'>Hi! I’m Suresh joshi, a passionate web developer I love creating clean and user-friendly websites and always enjoy learning new technologies.</p>
+        <div className='p-2 mt-5 text-justify space-y-3'>
+            <p className='text-2xl font-semibold mt-5'>Hi! I’m Suresh joshi, a passionate web developer I love creating clean and user-friendly websites and always enjoy learning new technologies.</p>
             <p className='pt-2 font-semibold'>I have skills in HTML, CSS, Botstrap, Tailwind-CSS, JavaScript, Git, GitHub, c++, React Node.Js MongoDB and Express.Js. I have worked on several projects like to-do apps, portfolios, news-app, eccomerce and responsive websites.</p>
             <p className='pt-2 font-semibold'>In my free time, I enjoy reading tech blogs, playing sports, and exploring new coding challenges.</p>
             <p className='pt-2 font-semibold'>My goal is to become a full-stack developer and contribute to exciting projects that make a difference.</p>
@@ -24,7 +24,7 @@ const About = () => {
         <h2 className="text-3xl md:text-4xl font-bold  mb-6">About Me</h2>
 
         {/* Skills Summary */}
-        <div className="mb-8">
+        <div className="mb-8 text-justify">
           <h3 className="text-2xl font-semibold  mb-2">Skills Summary</h3>
           <p className=" leading-relaxed">
             I am a passionate and self-motivated Frontend Developer with hands-on experience in building responsive and user-friendly websites.
@@ -35,7 +35,7 @@ const About = () => {
         </div>
 
         {/* My Journey */}
-        <div>
+        <div className='text-justify'>
           <h3 className="text-2xl font-semibold  mb-2">My Learning Journey</h3>
           <p className=" leading-relaxed">
             My journey into web development started with curiosity and a deep desire to build something of my own on the internet.
